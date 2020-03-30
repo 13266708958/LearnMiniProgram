@@ -1,6 +1,39 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/about/about",
+    "pages/link/link"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "位置",
+    "backgroundColor": "#ff5777",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true,
+    "pageOrientation": "auto"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "Region",
+        "iconPath": "assets/tabbar/region.png",
+        "selectedIconPath": "assets/tabbar/region_active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "Search",
+        "iconPath": "assets/tabbar/search.png",
+        "selectedIconPath": "assets/tabbar/search_active.png"
+      },
+      {
+        "pagePath": "pages/link/link",
+        "text": "Link",
+        "iconPath": "assets/tabbar/link.png",
+        "selectedIconPath": "assets/tabbar/link_active.png"
+      }
+    ]
+  }
 }

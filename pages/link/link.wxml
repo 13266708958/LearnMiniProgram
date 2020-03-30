@@ -1,0 +1,3 @@
+<!--pages/link/link.wxml-->
+<view>Please Enter Your Date:</view>
+<button>Link</button>
