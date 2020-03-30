@@ -2,3 +2,8 @@
 <text class='title'>Hello World!</text>
 <button class='button1' size='mid' >button</button>
 <!--<image src="E:\WechatPro\WorkSpace\test.bmp"></image>-->
+<view>Hello {{name}}</view>
+<view>My Age {{age}}</view>
+<view wx:for='{{students}}'>{{item.name}}-{{item.age}}</view>
+<view>count:{{count}}</view>
+<button size='mini' bindtap="HandleButonClieck">+</button>
