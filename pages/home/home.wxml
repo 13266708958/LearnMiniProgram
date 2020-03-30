@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text class='title'>Hello World!</text>
+<button class='button1' size='mid' >button</button>
+<!--<image src="E:\WechatPro\WorkSpace\test.bmp"></image>-->
